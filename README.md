@@ -27,4 +27,4 @@ python GetTitle.py
 
 があります．  
   
-詳しくは[なろう小説API](http://dev.syosetu.com/man/api/)の利用制限の項目を確認してください．
+詳しくは[なろう小説API](http://dev.syosetu.com/man/api/)の利用制限の項目をご確認ください．
