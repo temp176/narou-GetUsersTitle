@@ -1,6 +1,3 @@
-#APIのURL
-API_URL = 'https://api.syosetu.com/novelapi/api'
-
 #タイトルを書き出すファイルの名前
 FILE_NAME = 'title.txt'
 

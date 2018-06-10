@@ -7,7 +7,8 @@ import config
 
 urllib3.disable_warnings(InsecureRequestWarning)
 
-API_URL = config.API_URL
+API_URL = 'https://api.syosetu.com/novelapi/api'
+
 FILE_NAME = config.FILE_NAME
 LOG_NAME = config.LOG_NAME
 SLEEP_TIME = config.SLEEP_TIME
