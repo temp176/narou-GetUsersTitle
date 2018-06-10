@@ -25,6 +25,6 @@ python GetTitle.py
 * 利用上限80,000
 * 転送量上限400MByte
 
-です．  
+があります．  
   
 詳しくは[なろう小説API](http://dev.syosetu.com/man/api/)の利用制限の項目を確認してください．
