@@ -1,8 +1,8 @@
 #タイトルを書き出すファイルの名前
-FILE_NAME = 'title.txt'
+FILE_NAME = '../output/title.txt'
 
 #ログを書き出すファイルの名前
-LOG_NAME = 'log.txt'
+LOG_NAME = '../output/log.txt'
 
 #リクエスト間隔(アクセス負荷対策)
 SLEEP_TIME = 1.0
