@@ -15,7 +15,7 @@ SLEEP_TIME = config.SLEEP_TIME
 START_ID = config.START_ID
 END_ID = config.END_ID
 
-def title2list(dicData):
+def title_to_list(dicData):
     titles = []
     for i in range(1,len(dicData)):
         titles.append(list(dicData[i].values())[0])
@@ -25,7 +25,7 @@ def get_title(userid):
     http = urllib3.PoolManager()
     r = http.request('GET',API_URL,fields={'out':'json','of':'t','userid':userid})
     dicData = json.loads(r.data)
-    return title2list(dicData)
+    return title_to_list(dicData)
 
 def write_title(titles):
     fout = open(FILE_NAME,'a')
