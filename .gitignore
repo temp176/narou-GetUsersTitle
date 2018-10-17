@@ -1,4 +1,4 @@
 __pycache__/config.cpython-36.pyc
 src/__pycache__/config.cpython-36.pyc
-src/log.txt
-src/title.txt
+output/log.txt
+output/title.txt
